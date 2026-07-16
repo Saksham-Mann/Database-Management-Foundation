@@ -1,4 +1,6 @@
---Values for STUDENT_DETAILS
+-- Data insertion queries for student database
+
+-- 1. Values for STUDENT_DETAILS
 \prompt 'Enter Name: ' n
 \prompt 'Enter RegNo: ' r
 \prompt 'Enter School: ' s
@@ -7,7 +9,7 @@
 \prompt 'Enter MobileNo: ' m
 INSERT INTO Student_Details VALUES (:'n', :'r', :'s', :'c', :'e', :'m');
 
---Values for Marks
+-- 2. Values for Marks
 \prompt 'Enter Name: ' n
 \prompt 'Enter RegNo: ' r
 \prompt 'Enter Sub1 (0-100): ' s1
@@ -17,7 +19,7 @@ INSERT INTO Student_Details VALUES (:'n', :'r', :'s', :'c', :'e', :'m');
 \prompt 'Enter Sub5 (0-100): ' s5
 INSERT INTO Marks VALUES (:'n', :'r', :s1, :s2, :s3, :s4, :s5);
 
---Values for PROCTOR_DETAILS
+-- 3. Values for PROCTOR_DETAILS
 \prompt 'Enter Std_Name: ' sn
 \prompt 'Enter RegNo: ' r
 \prompt 'Enter ProcName: ' pn
@@ -25,7 +27,7 @@ INSERT INTO Marks VALUES (:'n', :'r', :s1, :s2, :s3, :s4, :s5);
 \prompt 'Enter Proc_mobileNo: ' pm
 INSERT INTO Proctor_Details VALUES (:'sn', :'r', :'pn', :'pe', :'pm');
 
---Values for PARENT_DETAILS
+-- 4. Values for PARENT_DETAILS
 \prompt 'Enter Std_Name: ' sn
 \prompt 'Enter RegNo: ' r
 \prompt 'Enter FatherName: ' fn

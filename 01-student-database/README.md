@@ -8,6 +8,7 @@ This repository contains the foundational relational database schema for a Stude
 - `creating-tables.sql`: creates the student management database schema and all required tables.
 - `inserting-values-fixed.sql`: inserts corrected sample data into the tables for testing and practice.
 - `inserting-values-interactive.sql`: inserts sample data in an interactive manner for guided practice and manual entry.
+- `data-retrival.sql`: contains practical SQL retrieval queries for displaying, filtering, counting, sorting, and joining records from the database.
 
 ## Database Schema
 
@@ -74,3 +75,5 @@ To ensure data integrity, the following constraints have been implemented at the
 ## Setup & Installation
 
 To initialize the database, run `creating-tables.sql` first to create the schema, then run either `inserting-values-fixed.sql` for prewritten sample data or `inserting-values-interactive.sql` for an interactive data-entry workflow using your preferred SQL client.
+
+After the data is loaded, you can use `data-retrival.sql` to explore and query the database with practical SELECT statements.

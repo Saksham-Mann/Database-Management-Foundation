@@ -7,4 +7,5 @@ A collection of PostgreSQL queries, schemas, and database operations built while
   * `creating-tables.sql`: SQL script used to define and create the foundational tables for the database schema.
   * `inserting-values-fixed.sql`: SQL script containing corrected sample data insert statements for the created tables.
   * `inserting-values-interactive.sql`: SQL script for inserting sample data interactively, useful for guided practice and testing.
+  * `data-retrival.sql`: SQL script with various SELECT queries for viewing, filtering, counting, sorting, and joining database records.
 
