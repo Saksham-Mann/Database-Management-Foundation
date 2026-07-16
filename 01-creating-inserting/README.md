@@ -3,6 +3,11 @@
 ## Overview
 This repository contains the foundational relational database schema for a Student Management System. The schema is designed to store and manage student demographics, academic performance (marks), proctor/advisor assignments, and parent/guardian contact information.
 
+## Files Included
+
+- `creating-tables.sql`: creates the student management database schema and all required tables.
+- `inserting-values-fixed.sql`: inserts corrected sample data into the tables for testing and practice.
+
 ## Database Schema
 
 The database consists of four primary tables, all linked by the student's Registration Number (RegNo) which acts as the Primary Key for each table, ensuring a 1:1 relationship across the entities.
@@ -67,4 +72,4 @@ To ensure data integrity, the following constraints have been implemented at the
 
 ## Setup & Installation
 
-To initialize the database, execute the `.sql` script files included in this repository using your preferred SQL client.
+To initialize the database, run `creating-tables.sql` first to create the schema, then run `inserting-values-fixed.sql` to load the sample data using your preferred SQL client.
