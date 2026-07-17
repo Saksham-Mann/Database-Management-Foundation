@@ -12,6 +12,7 @@ A collection of PostgreSQL queries, schemas, and database operations built while
 * **`02-customer-database/`**
   * `creating-tables.sql`: SQL script used to create the customer and transaction tables for the customer database schema.
   * `inserting-values.sql`: SQL script containing sample data insert statements for the customer and transaction tables.
+  * `manipulating-data.sql`: SQL script demonstrating update, delete, constraint, query, and indexing operations on the customer database.
 
 ## Citation
 

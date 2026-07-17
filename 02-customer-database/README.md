@@ -7,6 +7,7 @@ This repository contains the foundational relational database schema for a Custo
 
 - `creating-tables.sql`: creates the customer database schema and the required customer and transaction tables.
 - `inserting-values.sql`: inserts sample customer and transaction data for testing and practice.
+- `manipulating-data.sql`: demonstrates common update, delete, constraint, query, and indexing operations on the customer database.
 
 ## Database Schema
 
